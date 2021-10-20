@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+/* 共通部分 
+-------------------------------------------*/
+html{
+    font-size: 100%;
+}
+body{
+    /* フォント */
+    font-family: 'Noto Sans JP', sans-serif;
+    /* 行間 */
+    line-height: 1.7;
+    /* 文字色 */
+    color: #1d1d1f;
+    /* 表示領域 */
+    min-height: 100vh;
+    /* 相対位置に指定 */
+    position: relative;
+}
+a{
+    /* 装飾なし */
+    text-decoration: none;
+    /* 文字色 */
+    color: #1d1d1f;
+}
+li{
+    list-style: none;
+}
+img{
+    /* 画像がはみ出るのを防止 */
+    max-width: 100%;
+}
