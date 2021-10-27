@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 60px;
     border-bottom: solid 3px#1d1d1f;
     font-family: 'Festive', cursive;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 
 /* #home 
@@ -164,13 +164,13 @@ h1, h2, h3, h4, h5, h6{
 }
 .band-profile{
     font-size: 16px;
-    margin: 0 10px;
+    margin: -30px 10px 0 10px;
 }
 .menbers-title{
     text-align: center;
     font-size: 30px;
     border-bottom: solid 1px #1d1d1f;
-    margin: 30px 0;
+    margin: 40px 0 30px 0;
 }
 .menber{
     display: flex;
@@ -188,6 +188,24 @@ h1, h2, h3, h4, h5, h6{
 
 /* #info 
 --------------------------------------------------*/
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-day{
+    font-size: 14px;
+}
+.info-item{
+    display: flex;
+    margin-bottom: 60px;
+}
+.info-img{
+    width: 370px;
+    height: 246px;
+    margin-right: 20px;
+}
 
 /* #disc 
 --------------------------------------------------*/
@@ -222,6 +240,11 @@ h1, h2, h3, h4, h5, h6{
 --------------------------------------------------
 --------------------------------------------------*/
 @media(max-width:600px){
+    /* メニュー画面 -----------------------------*/
+    .main-nav a{
+        font-size: 30px;
+    }
+
     /* #home ---------------------*/
     #home{
         min-height: 33vh;
@@ -230,10 +253,48 @@ h1, h2, h3, h4, h5, h6{
         font-size: 60px;
     }
 
+    /* メインコンテンツ共通 ----------*/
+    .page-title{
+        font-size: 30px;
+    }
+
     /* #profile --------------------------------*/
     .menber{
         flex-direction: column;
     }
+    .menbers-title{
+        font-size: 20px;
+    }
+    .menber-title{
+        font-size: 20px;
+    }
+
+        /* #info 
+    --------------------------------------------------*/
+    .info-item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .info-img{
+        margin: 0;
+        width: 300px;
+        height: 199px;
+    }
+    /* #disc 
+    --------------------------------------------------*/
+
+    /* #live 
+    --------------------------------------------------*/
+
+    /* #video 
+    --------------------------------------------------*/
+
+    /* #goods 
+    --------------------------------------------------*/
+
+    /* フッター 
+    --------------------------------------------------*/
 }
 /* /モバイル版
 --------------------------------------------------*/
