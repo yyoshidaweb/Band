@@ -224,6 +224,34 @@ h1, h2, h3, h4, h5, h6{
 
 /* #live 
 --------------------------------------------------*/
+#live{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.live-content{
+    margin: 0 30px;
+}
+.live-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 60px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+
+}
+.live-info{
+    display: flex;
+}
+.live-title{
+    font-size: 30px;
+}
+.live-info-title{
+    margin-right: 30px;
+}
 
 /* #video 
 --------------------------------------------------*/
@@ -295,6 +323,9 @@ h1, h2, h3, h4, h5, h6{
 
     /* #live 
     --------------------------------------------------*/
+    .live-title{
+        font-size: 20px;
+    }
 
     /* #video 
     --------------------------------------------------*/
