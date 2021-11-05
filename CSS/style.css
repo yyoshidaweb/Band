@@ -7,7 +7,7 @@ html{
 }
 body{
     /* フォント */
-    font-family: 'Raleway', 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans Diplay', 'Noto Sans JP', sans-serif;
     /* フォントウェイト */
     font-weight: 100;
     /* 行間 */
@@ -148,6 +148,7 @@ h1, h2, h3, h4, h5, h6{
     min-height: 100vh;
     background-image: url("../images/home_bg.jpg");
     background-size: cover;
+    margin-bottom: 60px;
 }
 .home-title{
     font-family: 'Festive', cursive;
