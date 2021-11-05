@@ -7,7 +7,7 @@ html{
 }
 body{
     /* フォント */
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Raleway', 'Noto Sans JP', sans-serif;
     /* フォントウェイト */
     font-weight: 100;
     /* 行間 */
@@ -134,7 +134,8 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     font-size: 60px;
     border-bottom: solid 3px#1d1d1f;
-    font-family: 'Festive', cursive;
+    font-family: 'Festive', 'Noto Sans JP', cursive;
+    font-weight: 200;
     margin-bottom: 60px;
 }
 
@@ -161,6 +162,9 @@ h1, h2, h3, h4, h5, h6{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#profile .page-title{
+    font-family: 'Raleway', 'Noto Sans JP';
 }
 .band-profile{
     font-size: 16px;
