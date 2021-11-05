@@ -163,9 +163,6 @@ h1, h2, h3, h4, h5, h6{
     justify-content: center;
     align-items: center;
 }
-#profile .page-title{
-    font-family: 'Raleway', 'Noto Sans JP';
-}
 .band-profile{
     font-size: 16px;
     margin: -30px 10px 0 10px;
