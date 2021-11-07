@@ -227,6 +227,24 @@ h1, h2, h3, h4, h5, h6{
 
 /* #video 
 --------------------------------------------------*/
+#video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.video-content{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.video-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
 
 /* #goods 
 --------------------------------------------------*/
