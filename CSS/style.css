@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6{
     border-bottom: solid 3px#1d1d1f;
     font-family: 'Festive', 'Noto Sans JP', cursive;
     font-weight: 200;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 
 /* #home 
@@ -158,7 +158,6 @@ h1, h2, h3, h4, h5, h6{
 /* #profile 
 --------------------------------------------------*/
 #profile{
-    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +165,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .band-profile{
     font-size: 16px;
-    margin: -30px 10px 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .menbers-title{
     text-align: center;
