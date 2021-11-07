@@ -248,6 +248,23 @@ h1, h2, h3, h4, h5, h6{
 
 /* #goods 
 --------------------------------------------------*/
+#goods{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.goods-content{
+    display: grid;
+    gap: 60px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+}
+.goods-title{
+    text-align: center;
+}
 
 /* #profile 
 --------------------------------------------------*/
