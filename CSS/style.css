@@ -297,7 +297,29 @@ h1, h2, h3, h4, h5, h6{
 
 /* フッター 
 --------------------------------------------------*/
-
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 230, 230);
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.footer-text{
+    padding-bottom: 25px;
+}
+.footer-menu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+.footer-menu a{
+    font-size: 16px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
 
 
 /* タブレット版
@@ -371,6 +393,13 @@ h1, h2, h3, h4, h5, h6{
 
     /* フッター 
     --------------------------------------------------*/
+    .footer-menu{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-menu a{
+        margin-left: 0;
+    }
 }
 /* /モバイル版
 --------------------------------------------------*/
