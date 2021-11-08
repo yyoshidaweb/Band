@@ -306,19 +306,27 @@ footer{
     box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
-.footer-text{
-    padding-bottom: 25px;
-}
 .footer-menu{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
 }
 .footer-menu a{
     font-size: 16px;
     margin-left: 30px;
     margin-bottom: 25px;
+}
+/* フッターのコピーライトと画像 */
+.footer-text{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+.pakutaso-img{
+    width: 93px;
+    margin-left: 20px;
 }
 
 
@@ -395,7 +403,6 @@ footer{
     --------------------------------------------------*/
     .footer-menu{
         flex-direction: column;
-        align-items: center;
     }
     .footer-menu a{
         margin-left: 0;
