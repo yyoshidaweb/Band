@@ -1,3 +1,3 @@
 # Band
-架空のバンドのホームページ
-https://yoshida-github.github.io/Band/
+## 概要
+ポートフォリオとして制作した架空のバンドのホームページです。
